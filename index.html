@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0eef649f9.js" crossorigin="anonymous"></script>
+    <title>the ordinary</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="secao1">
+            <div id="titulo1">
+                <h1>The Ordinary.</h1>
+            </div>
+        </div>
+
+
+        <div class="secao2">
+            <div class="prods">
+                <img id="img1" onmouseover="btn1on()" onmouseleave="btn1out()" src="imgs/b-oil.jpg">
+                <h3 class="text-prod" id="txt1">"B" Oil - Daily Support Formula</h3>
+                <h4 class="price" id="price1">$94</h4>
+                <button class="btn" onmouseover="onlybtn1on()" onmouseout="onlybtn1out()" id="btn1">shop</button>
+            </div>
+
+            <div class="prods">
+                <img src="imgs/acido-hialuronico.jpg" onmouseover="btn2on()" onmouseleave="btn2out()">
+                <h3 class="text-prod" id="txt2">Hyaluronic Acid 2% + B5</h3>
+                <h4 class="price" id="price2">$140</h4>
+                <button class="btn" onmouseover="onlybtn2on()" onmouseout="onlybtn2out()" id="btn2">shop</button>
+            </div>
+
+            <div class="prods">
+                <img src="imgs/plant-derilved.jpg" onmouseover="btn3on()" onmouseleave="btn3out()">
+                <h3 class="text-prod" id="txt3">100% Plant-Derived Squlane</h3>
+                <h4 class="price" id="price3">$139</h4>
+                <button class="btn" onmouseover="onlybtn3on()" onmouseout="onlybtn3out()" id="btn3">shop</button>
+            </div>
+        </div>
+
+        <div class="secao3">
+            <h3>The best saller.</h3>
+            <button id="btn-best-saller">SHOP NOW</button>
+        </div>
+
+        <div class="secao4">
+            <div id="linha-vertical"></div>
+            <div class="care-steps">
+                <h3>Shop By Steps </h3>
+                    <h2>Step 1: Prep</h2> 
+                    <p>
+                        Cleanse the skin and prepare it to receive active ingredients. <br>
+                    <a id='linkCleanser' href="#"><strong>Facial Cleansers</strong></a>
+                    Help remove suface impurities, excess oil and makeup.
+                    </p>
+                    <img id="imgCleanser" src="imgs/ORD-PLP-Category-FacialCleansers.webp" onmouseover="showTxtImgCleanser()">
+                    <div class="txtImgCleanser" id="txtImgCleanser">
+                        <h3>Facial Cleansers</h3>
+                        <h1>Squalane Cleanser</h1>
+                        <h2>Help remove suface impurities, excess oil and makeup.</h2>
+                        <button>SHOP CLEANSER NOW</button>
+                    </div>
+
+                    <h2>Step 2: Treat</h2>
+                    <p>
+                    Address specific skin concerns using targeted formulas.
+                    </p>
+                    <div class="step2imgs">
+                        <div class="imgs-step2">
+                        <img src="imgs/faceoil.webp" onmouseover="legend1()" onmouseout="legend1out()">
+                        <a class='legendStep2' id="legend1" href="#">Face Oils</a>
+                        </div>
+                        <div class="imgs-step2">
+                            <img src="imgs/ORD-PLP-Category-FaceMasques.webp" onmouseover="legend2()" onmouseout="legend2out()">
+                        <a class='legendStep2' id="legend2" href="#">Face Masks</a>
+                        </div>
+                        <div class="imgs-step2">
+                        <img src="imgs/eyeserum.webp" onmouseover="legend3()" onmouseout="legend3out()">
+                        <a class='legendStep2' id="legend3" href="#">Eyes Serum</a>
+                        </div>
+                    </div>
+                    <h2>Step 3: Seal</h2>
+                    <p>
+                        Lock in benefits and support the skin barrier.
+                    </p>
+                    <div class="imgs3step">
+                        <div class="imgs-step3">
+                            <img src="imgs/ORD-PLP-Category-Moisturizers.jpg" onmouseover="legend4()" onmouseout="legend4out()">
+                            <a class="legendStep3" id="legend4" href="#">Natural Moisturizing Factors + HA</a>
+                        </div>
+                        <div class="imgs-step3">
+                            <img src="imgs/ORD-PLP-Category-Suncare.webp" onmouseover="legend5()" onmouseout="legend5out()">
+                            <a class="legendStep3" id="legend5" href="#">Mineral UV Filters SPF15 with Antioxidants</a>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
